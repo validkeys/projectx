@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements
+END
+sql_log_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/sql_log_panel.ctp
+END
+timer_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/timer_panel.ctp
+END
+history_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/history_panel.ctp
+END
+log_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/log_panel.ctp
+END
+session_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/session_panel.ctp
+END
+memory_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/memory_panel.ctp
+END
+request_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/request_panel.ctp
+END
+variables_panel.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/variables_panel.ctp
+END
+debug_toolbar.ctp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/debug_toolbar.ctp
+END
+empty
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/source/rs_rework/!svn/ver/195/plugins/debug_kit/views/elements/empty
+END

@@ -1,0 +1,166 @@
+2012-05-09 12:56:31 Debug: This action can not be accessed using GET
+2012-05-09 12:56:36 Debug: This action can not be accessed using GET
+2012-05-09 13:13:50 Notice: Notice (8): Undefined variable: Form in [/Users/kyledavis/Sites/projectx/app/views/labs/login.ctp, line 2]
+2012-05-09 13:16:38 Notice: Notice (8): Undefined variable: allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
+2012-05-09 13:53:45 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:53:54 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:53:55 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:54:05 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => datawall
+        )
+
+)
+
+2012-05-09 13:54:07 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => datawall
+        )
+
+)
+
+2012-05-09 13:54:13 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:54:14 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:54:52 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:54:55 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:55:21 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:55:21 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:55:38 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:57:01 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:57:07 Debug: 
+2012-05-09 13:57:09 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:57:12 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => 
+        )
+
+)
+
+2012-05-09 13:57:52 Debug: Array
+(
+    [User] => Array
+        (
+            [email] => gcadmin
+            [password] => aasdatawall
+        )
+
+)
+
+2012-05-09 13:58:12 Notice: Notice (8): Undefined property: UsersController::$allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
