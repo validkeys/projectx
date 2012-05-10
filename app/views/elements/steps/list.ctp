@@ -5,9 +5,12 @@
 				echo $form->create('Step', array('action'	=> 'toggle'));
 					echo $form->input('id', array('value'	=> $step['Step']['id']));
 					echo $form->input('completed',array(
-						'checked'	=> ($step['Step']['completed']) ? true : false
+						'checked'	=> ($step['Step']['completed']) ? true : false,
+						'label'		=> false,
+						'class'		=> 'step-check',
+						'div'		=> false
 					));
-				echo $form->end('Submit');
+				echo $form->end();
 			?>
 		</div>
 		<div class="date">
@@ -18,5 +21,6 @@
 			</ul>
 		</div>
 		<div class="title"><?php echo $step['Step']['title'] ?></div>
+		<div class="clear-both"></div>
 	</div>
 <?php endforeach ?>
