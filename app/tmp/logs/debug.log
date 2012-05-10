@@ -402,3 +402,10 @@
 2012-05-09 21:38:06 Debug: Mass due date update successful
 2012-05-09 21:38:22 Debug: Step completed. De-Iterating remaining steps due dates
 2012-05-09 21:38:22 Debug: Mass due date update successful
+2012-05-09 21:45:22 Debug: Step un-completed. Iterating remaining steps due dates
+2012-05-09 21:45:22 Debug: Mass due date update successful
+2012-05-09 21:45:48 Debug: Step un-completed. Iterating remaining steps due dates
+2012-05-09 21:45:48 Debug: Mass due date update successful
+2012-05-09 21:46:04 Debug: Step un-completed. Iterating remaining steps due dates
+2012-05-09 21:46:04 Debug: Mass due date update successful
+2012-05-09 21:50:09 Debug: Redundant completion attempt

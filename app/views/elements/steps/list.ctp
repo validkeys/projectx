@@ -2,9 +2,11 @@
 	<div class="step-item-container">
 		<div class="todo-form">
 			<?php
-				echo $form->create('Step', array('action'	=> 'complete'));
+				echo $form->create('Step', array('action'	=> 'toggle'));
 					echo $form->input('id', array('value'	=> $step['Step']['id']));
-					echo $form->input('completed');
+					echo $form->input('completed',array(
+						'checked'	=> ($step['Step']['completed']) ? true : false
+					));
 				echo $form->end('Submit');
 			?>
 		</div>

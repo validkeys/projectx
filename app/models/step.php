@@ -57,6 +57,7 @@ class Step extends AppModel {
 		)
 	);
 	
+	
 	function beforeSave($options){
 		
 		// If a task has been marked as completed, set the date
