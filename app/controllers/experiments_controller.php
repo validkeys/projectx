@@ -4,17 +4,54 @@ class ExperimentsController extends AppController {
 	var $name 			= 'Experiments';
 	var $requiresPost 	= array('delete');
 
+	function setdates($id){
+		$experiment = $this->Experiment->read(null, $id);
+		$start_date = $experiment['Experiment']['start_date'];
+		
+		$steps = $this->Experiment->steps($id);
+		
+		$changes = array();
+		
+		$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($start_date)) . " +1 Day"));
+		
+		foreach ($steps as $step) {
+			$change = array(
+				'id'	=> $step['Step']['id'],
+				'due'	=> $due
+			);
+			
+			$changes[] = $change;
+			
+			$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($due)) . " +1 Day"));
+		}
+		
+		$this->Experiment->Step->saveAll($changes);
+		
+		$this->log($changes, LOG_DEBUG);
+		
+	}
+
+
 	function index() {
 		$this->Experiment->recursive = 0;
 		$this->set('experiments', $this->paginate());
 	}
 
 	function view($id = null) {
+		
+		$this->layout = 'minimal';
+		
 		if (!$id) {
 			$this->Session->setFlash(__('Invalid experiment', true));
 			$this->redirect(array('action' => 'index'));
 		}
-		$this->set('experiment', $this->Experiment->read(null, $id));
+		
+		$this->set('status',		$this->Experiment->status($id));
+		
+		$this->Experiment->recursive = -1;
+		$this->set('experiment', 	$this->Experiment->read(null, $id));
+		
+		$this->set('steps',			$this->Experiment->steps($id));
 	}
 
 	function add() {

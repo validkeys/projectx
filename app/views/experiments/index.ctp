@@ -7,6 +7,7 @@
 			<th><?php echo $this->Paginator->sort('noun');?></th>
 			<th><?php echo $this->Paginator->sort('verb');?></th>
 			<th><?php echo $this->Paginator->sort('user_id');?></th>
+			<th><?php echo $this->Paginator->sort('start_date');?></th>
 			<th><?php echo $this->Paginator->sort('completed');?></th>
 			<th><?php echo $this->Paginator->sort('date_completed');?></th>
 			<th><?php echo $this->Paginator->sort('created');?></th>
@@ -29,6 +30,7 @@
 		<td>
 			<?php echo $this->Html->link($experiment['User']['name'], array('controller' => 'users', 'action' => 'view', $experiment['User']['id'])); ?>
 		</td>
+		<td><?php echo $experiment['Experiment']['start_date']; ?>&nbsp;</td>
 		<td><?php echo $experiment['Experiment']['completed']; ?>&nbsp;</td>
 		<td><?php echo $experiment['Experiment']['date_completed']; ?>&nbsp;</td>
 		<td><?php echo $experiment['Experiment']['created']; ?>&nbsp;</td>

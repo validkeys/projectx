@@ -7,6 +7,7 @@
 		echo $this->Form->input('action');
 		echo $this->Form->input('noun');
 		echo $this->Form->input('verb');
+		echo $this->Form->input('start_date');
 		// echo $this->Form->input('user_id');
 		echo $this->Form->input('completed');
 	?>

@@ -4,7 +4,7 @@ class AppController extends Controller {
 	// Holds an array of controller actions
 	// requiring POST vs. GET
 	var $requiresPost 	= array();
-	var $helpers 		= array('Html','Javascript','Form','Session');
+	var $helpers 		= array('Html','Javascript','Form','Session','Number');
 	var $components 	= array(
 		'RequestHandler',
 		'Session',

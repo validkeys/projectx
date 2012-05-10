@@ -3,6 +3,7 @@ class StepsController extends AppController {
 
 	var $name 			= 'Steps';
 	var $requiresPost 	= array('delete');
+	
 
 	function index() {
 		$this->Step->recursive = 0;

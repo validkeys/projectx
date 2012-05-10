@@ -1,171 +1,404 @@
-2012-05-09 12:56:31 Debug: This action can not be accessed using GET
-2012-05-09 12:56:36 Debug: This action can not be accessed using GET
-2012-05-09 13:13:50 Notice: Notice (8): Undefined variable: Form in [/Users/kyledavis/Sites/projectx/app/views/labs/login.ctp, line 2]
-2012-05-09 13:16:38 Notice: Notice (8): Undefined variable: allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
-2012-05-09 13:53:45 Debug: Array
+
+2012-05-09 20:44:11 Debug: Start Date: 2012-05-09
+2012-05-09 20:44:11 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 16]
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:11 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Start Date: 2012-05-09
+2012-05-09 20:44:28 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 16]
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:28 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Start Date: 2012-05-09
+2012-05-09 20:44:46 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 16]
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:44:46 Debug: Due Date: 
+2012-05-09 20:45:20 Debug: Start Date: 2012-05-09
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:20 Debug: Due Date: 1336622400
+2012-05-09 20:45:36 Debug: Start Date: 2012-05-09
+2012-05-09 20:45:36 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 16]
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:45:36 Debug: Due Date: 
+2012-05-09 20:46:06 Debug: Start Date: 2012-05-09
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:06 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:26 Debug: Start Date: 2012-05-09
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-10
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-11
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-12
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-13
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-14
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-15
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-16
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-17
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-18
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-19
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-20
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-21
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-22
+2012-05-09 20:46:26 Debug: Due Date: 2012-05-23
+2012-05-09 20:47:39 Debug: Array
 (
-    [User] => Array
+    [id] => 14
+    [due] => 2012-05-23
+)
+
+2012-05-09 20:48:19 Debug: Array
+(
+    [0] => Array
         (
-            [email] => gcadmin
-            [password] => 
+            [id] => 1
+            [due] => 2012-05-10
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [due] => 2012-05-11
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [due] => 2012-05-12
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [due] => 2012-05-13
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [due] => 2012-05-14
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [due] => 2012-05-15
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [due] => 2012-05-16
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [due] => 2012-05-17
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [due] => 2012-05-18
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [due] => 2012-05-19
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [due] => 2012-05-20
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [due] => 2012-05-21
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [due] => 2012-05-22
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [due] => 2012-05-23
         )
 
 )
 
-2012-05-09 13:53:54 Debug: Array
+2012-05-09 20:49:40 Debug: Array
 (
-    [User] => Array
+    [Step] => Array
         (
-            [email] => gcadmin
-            [password] => 
+            [0] => Array
+                (
+                    [id] => 1
+                    [due] => 2012-05-10
+                )
+
+            [1] => Array
+                (
+                    [id] => 2
+                    [due] => 2012-05-11
+                )
+
+            [2] => Array
+                (
+                    [id] => 3
+                    [due] => 2012-05-12
+                )
+
+            [3] => Array
+                (
+                    [id] => 4
+                    [due] => 2012-05-13
+                )
+
+            [4] => Array
+                (
+                    [id] => 5
+                    [due] => 2012-05-14
+                )
+
+            [5] => Array
+                (
+                    [id] => 6
+                    [due] => 2012-05-15
+                )
+
+            [6] => Array
+                (
+                    [id] => 7
+                    [due] => 2012-05-16
+                )
+
+            [7] => Array
+                (
+                    [id] => 8
+                    [due] => 2012-05-17
+                )
+
+            [8] => Array
+                (
+                    [id] => 9
+                    [due] => 2012-05-18
+                )
+
+            [9] => Array
+                (
+                    [id] => 10
+                    [due] => 2012-05-19
+                )
+
+            [10] => Array
+                (
+                    [id] => 11
+                    [due] => 2012-05-20
+                )
+
+            [11] => Array
+                (
+                    [id] => 12
+                    [due] => 2012-05-21
+                )
+
+            [12] => Array
+                (
+                    [id] => 13
+                    [due] => 2012-05-22
+                )
+
+            [13] => Array
+                (
+                    [id] => 14
+                    [due] => 2012-05-23
+                )
+
         )
 
 )
 
-2012-05-09 13:53:55 Debug: Array
+2012-05-09 20:50:32 Notice: Notice (8): Undefined index:  completed in [/Users/kyledavis/Sites/projectx/app/models/step.php, line 54]
+2012-05-09 20:50:33 Debug: Array
 (
-    [User] => Array
+    [0] => Array
         (
-            [email] => gcadmin
-            [password] => 
+            [id] => 1
+            [due] => 2012-05-10
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [due] => 2012-05-11
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [due] => 2012-05-12
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [due] => 2012-05-13
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [due] => 2012-05-14
+        )
+
+    [5] => Array
+        (
+            [id] => 6
+            [due] => 2012-05-15
+        )
+
+    [6] => Array
+        (
+            [id] => 7
+            [due] => 2012-05-16
+        )
+
+    [7] => Array
+        (
+            [id] => 8
+            [due] => 2012-05-17
+        )
+
+    [8] => Array
+        (
+            [id] => 9
+            [due] => 2012-05-18
+        )
+
+    [9] => Array
+        (
+            [id] => 10
+            [due] => 2012-05-19
+        )
+
+    [10] => Array
+        (
+            [id] => 11
+            [due] => 2012-05-20
+        )
+
+    [11] => Array
+        (
+            [id] => 12
+            [due] => 2012-05-21
+        )
+
+    [12] => Array
+        (
+            [id] => 13
+            [due] => 2012-05-22
+        )
+
+    [13] => Array
+        (
+            [id] => 14
+            [due] => 2012-05-23
         )
 
 )
 
-2012-05-09 13:54:05 Debug: Array
+2012-05-09 20:56:05 Notice: Notice (8): Undefined index:  Y-m-d in [/Users/kyledavis/Sites/projectx/cake/libs/validation.php, line 409]
+2012-05-09 20:56:48 Notice: Notice (8): Undefined variable: id in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 8]
+2012-05-09 20:56:48 Notice: Notice (8): Undefined variable: id in [/Users/kyledavis/Sites/projectx/app/controllers/experiments_controller.php, line 11]
+2012-05-09 20:56:49 Debug: Array
 (
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => datawall
-        )
-
 )
 
-2012-05-09 13:54:07 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => datawall
-        )
-
-)
-
-2012-05-09 13:54:13 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:54:14 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:54:52 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:54:55 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:55:21 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:55:21 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:55:38 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:57:01 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:57:07 Debug: 
-2012-05-09 13:57:09 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:57:12 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => 
-        )
-
-)
-
-2012-05-09 13:57:52 Debug: Array
-(
-    [User] => Array
-        (
-            [email] => gcadmin
-            [password] => aasdatawall
-        )
-
-)
-
-2012-05-09 13:58:12 Notice: Notice (8): Undefined property: UsersController::$allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
-2012-05-09 14:16:50 Notice: Notice (8): Undefined property: UsersController::$allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
-2012-05-09 19:51:17 Notice: Notice (8): Undefined index:  completed in [/Users/kyledavis/Sites/projectx/app/models/experiment.php, line 84]
-2012-05-09 19:52:24 Notice: Notice (8): Undefined index:  complete in [/Users/kyledavis/Sites/projectx/app/views/experiments/index.ctp, line 32]
-2012-05-09 19:52:54 Debug: This action can not be accessed using GET
-2012-05-09 19:53:22 Notice: Notice (8): Undefined index:  complete in [/Users/kyledavis/Sites/projectx/app/views/experiments/view.ctp, line 31]
+2012-05-09 20:59:00 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/views/elements/steps/list.ctp, line 5]
+2012-05-09 20:59:10 Notice: Notice (8): A non well formed numeric value encountered in [/Users/kyledavis/Sites/projectx/app/views/elements/steps/list.ctp, line 5]
+2012-05-09 21:35:15 Debug: Step completed. De-Iterating remaining steps due dates
+2012-05-09 21:35:15 Debug: Mass due date update successful
+2012-05-09 21:36:39 Debug: Step completed. De-Iterating remaining steps due dates
+2012-05-09 21:36:39 Debug: Mass due date update successful
+2012-05-09 21:37:50 Debug: Step completed. De-Iterating remaining steps due dates
+2012-05-09 21:37:50 Debug: Mass due date update successful
+2012-05-09 21:38:06 Debug: Step completed. De-Iterating remaining steps due dates
+2012-05-09 21:38:06 Debug: Mass due date update successful
+2012-05-09 21:38:22 Debug: Step completed. De-Iterating remaining steps due dates
+2012-05-09 21:38:22 Debug: Mass due date update successful

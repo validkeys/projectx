@@ -90,4 +90,55 @@ class Experiment extends AppModel {
 		return true;
 	}
 	
+	// This returns an array of a projects status
+	// Based on steps taken out of the total created
+	function status($id){
+		
+		$steps = $this->Step->find('all',array(
+			'conditions'	=> array(
+				'Step.experiment_id'		=> $id
+			),
+			'fields'		=> array(
+				'Step.id',
+				'Step.completed'
+			),
+			'recursive'		=> -1
+		));
+		
+		// % Completed
+		// Total steps completed
+		// Total Number of Steps
+		// Total Steps Remaining
+		// Total Days Remaining
+		$returnArray = array();
+		
+		// Total Number of Steps
+		$returnArray['total_steps'] = count($steps);
+
+		$completed = 0;
+		foreach ($steps as $step) {
+			if($step['Step']['completed']){
+				$completed++;
+			}
+		}
+		
+		$returnArray['completed_steps'] 		= $completed;
+		$returnArray['percentage_completed']	= ($completed / $returnArray['total_steps']) * 100;
+		$returnArray['steps_remaining']			= $returnArray['total_steps'] - $completed;
+		$returnArray['days_remaining']			= $returnArray['total_steps'] - $completed;
+
+		return $returnArray;
+		
+	}
+	
+	function steps($id){
+		return $this->Step->find('all',array(
+			'conditions'	=> array(
+				'Step.experiment_id'	=> $id
+			),
+			'order'			=> 'Step.order ASC',
+			'contain'		=> array()
+		));
+	}
+	
 }

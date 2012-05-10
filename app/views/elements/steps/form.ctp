@@ -6,6 +6,7 @@
 		echo ($edit_mode) ? $this->Form->input('id') : '';
 		echo $this->Form->input('title');
 		echo $this->Form->input('notes');
+		echo $this->Form->input('due');
 		echo $this->Form->input('order');
 		echo $this->Form->input('experiment_id');
 		echo $this->Form->input('completed');
