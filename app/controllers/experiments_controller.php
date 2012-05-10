@@ -33,7 +33,7 @@ class ExperimentsController extends AppController {
 
 
 	function index() {
-		$this->layout = 'html5';
+		// $this->layout = 'html5';
 		$this->Experiment->recursive = 0;
 		$this->set('experiments', $this->paginate());
 	}
