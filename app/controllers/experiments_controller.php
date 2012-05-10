@@ -20,6 +20,10 @@ class ExperimentsController extends AppController {
 	function add() {
 		if (!empty($this->data)) {
 			$this->Experiment->create();
+
+			// Add user_id to created experiment
+			$this->data['Experiment']['user_id'] = $this->Auth->User('id');
+
 			if ($this->Experiment->save($this->data)) {
 				$this->Session->setFlash(__('The experiment has been saved', true));
 				$this->redirect(array('action' => 'index'));

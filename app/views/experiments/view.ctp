@@ -26,9 +26,9 @@
 			<?php echo $this->Html->link($experiment['User']['name'], array('controller' => 'users', 'action' => 'view', $experiment['User']['id'])); ?>
 			&nbsp;
 		</dd>
-		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Complete'); ?></dt>
+		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Completed'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
-			<?php echo $experiment['Experiment']['complete']; ?>
+			<?php echo $experiment['Experiment']['completed']; ?>
 			&nbsp;
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Date Completed'); ?></dt>

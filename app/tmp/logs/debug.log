@@ -164,3 +164,8 @@
 )
 
 2012-05-09 13:58:12 Notice: Notice (8): Undefined property: UsersController::$allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
+2012-05-09 14:16:50 Notice: Notice (8): Undefined property: UsersController::$allowedActions in [/Users/kyledavis/Sites/projectx/app/controllers/users_controller.php, line 11]
+2012-05-09 19:51:17 Notice: Notice (8): Undefined index:  completed in [/Users/kyledavis/Sites/projectx/app/models/experiment.php, line 84]
+2012-05-09 19:52:24 Notice: Notice (8): Undefined index:  complete in [/Users/kyledavis/Sites/projectx/app/views/experiments/index.ctp, line 32]
+2012-05-09 19:52:54 Debug: This action can not be accessed using GET
+2012-05-09 19:53:22 Notice: Notice (8): Undefined index:  complete in [/Users/kyledavis/Sites/projectx/app/views/experiments/view.ctp, line 31]

@@ -47,4 +47,6 @@ class User extends AppModel {
 			),
 		),
 	);
+	
+
 }

@@ -3,7 +3,7 @@ class UsersController extends AppController {
 
 	var $name 			= 'Users';
 	var $requiresPost 	= array('delete');
-	// var $allowedActions = array('index','add');
+	var $allowedActions = array('index','add');
 	
 	function beforeFilter(){
 		
