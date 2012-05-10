@@ -4,35 +4,36 @@ class ExperimentsController extends AppController {
 	var $name 			= 'Experiments';
 	var $requiresPost 	= array('delete');
 
-	function setdates($id){
-		$experiment = $this->Experiment->read(null, $id);
-		$start_date = $experiment['Experiment']['start_date'];
-		
-		$steps = $this->Experiment->steps($id);
-		
-		$changes = array();
-		
-		$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($start_date)) . " +1 Day"));
-		
-		foreach ($steps as $step) {
-			$change = array(
-				'id'	=> $step['Step']['id'],
-				'due'	=> $due
-			);
-			
-			$changes[] = $change;
-			
-			$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($due)) . " +1 Day"));
-		}
-		
-		$this->Experiment->Step->saveAll($changes);
-		
-		$this->log($changes, LOG_DEBUG);
-		
-	}
+	// function setdates($id){
+	// 	$experiment = $this->Experiment->read(null, $id);
+	// 	$start_date = $experiment['Experiment']['start_date'];
+	// 	
+	// 	$steps = $this->Experiment->steps($id);
+	// 	
+	// 	$changes = array();
+	// 	
+	// 	$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($start_date)) . " +1 Day"));
+	// 	
+	// 	foreach ($steps as $step) {
+	// 		$change = array(
+	// 			'id'	=> $step['Step']['id'],
+	// 			'due'	=> $due
+	// 		);
+	// 		
+	// 		$changes[] = $change;
+	// 		
+	// 		$due = date("Y-m-d",strtotime(date("Y-m-d", strtotime($due)) . " +1 Day"));
+	// 	}
+	// 	
+	// 	$this->Experiment->Step->saveAll($changes);
+	// 	
+	// 	$this->log($changes, LOG_DEBUG);
+	// 	
+	// }
 
 
 	function index() {
+		$this->layout = 'html5';
 		$this->Experiment->recursive = 0;
 		$this->set('experiments', $this->paginate());
 	}
